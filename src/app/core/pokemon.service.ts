@@ -10,7 +10,6 @@ export class pokemonService {
         private http: HttpClient) { }
 
     getCards(name) {
-    //   return http.getJSON(`https://api.pokemontcg.io/v1/cards?name=${name}`);
      return  this.http.get(`https://api.pokemontcg.io/v1/cards?name=${name}`);
     }
 

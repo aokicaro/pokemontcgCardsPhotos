@@ -1,6 +1,5 @@
 <ActionBar class="action-bar">
-    <Label class="action-bar-title" text="Cartas Pokemon!"></Label>
-    <SearchBar hint="Procure aqui!" (submit)="onSubmit($event)" color="white" textFieldHintColor="white"></SearchBar>
+    <SearchBar hint="Procure seu pokemon!" (submit)="onSubmit($event)" color="white" textFieldHintColor="white"></SearchBar>
 </ActionBar>
 <GridLayout class="page">
     <ListView [items]="cards" class="list-group">
